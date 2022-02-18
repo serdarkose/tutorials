@@ -19,5 +19,6 @@
 - Clang_format_path: defines the location of the binary. You can find its location by `whereis clang-format` on the terminal.
 - Clang_format_fallback Style: if the `.clang-format` file doesn't exist, then it will fallback to this definition. My fallback is ` { BasedOnStyle: Google, IndentWidth: 4,  TabWidth: 4, ColumnLimit: 120}`
 7. Search as `formatter` then enable `Format on Save` feature
-8. You can generate the `.clang-format' file by 
+8. You can generate the `.clang-format` file by 
+
 `clang-format -style= { BasedOnStyle: Google, IndentWidth: 4,  TabWidth: 4, ColumnLimit: 120} -dump-config > .clang-format`
