@@ -21,4 +21,4 @@
 7. Search as `formatter` then enable `Format on Save` feature
 8. You can generate the `.clang-format` file by 
 
-`clang-format -style= { BasedOnStyle: Google, IndentWidth: 4,  TabWidth: 4, ColumnLimit: 120} -dump-config > .clang-format`
+`clang-format -style="{BasedOnStyle: Google, IndentWidth: 4,  TabWidth: 4, ColumnLimit: 120}" -dump-config > .clang-format`
