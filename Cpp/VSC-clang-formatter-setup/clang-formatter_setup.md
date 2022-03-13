@@ -6,7 +6,7 @@
 
 2. Install clang-format extension on VS Code
 1. Extensions:
-2. Search `uncrustify`
+2. Search `clang-format`
 3. `install` the extension
 
 ![extension](pics/1.png)
@@ -21,4 +21,4 @@
 7. Search as `formatter` then enable `Format on Save` feature
 8. You can generate the `.clang-format` file by 
 
-`clang-format -style="{BasedOnStyle: Google, IndentWidth: 4,  TabWidth: 4, ColumnLimit: 120}" -dump-config > .clang-format`
+`clang-format -style="{BasedOnStyle: Google, IndentWidth: 4,  TabWidth: 4, ColumnLimit: 120}" -dump-config > .clang_format`
